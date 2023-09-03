@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
     // Read CSV file
-    std::vector<std::vector<std::string>> csvData = readCSV("book1.csv");
+    std::vector<std::vector<std::string>> csvData = readCSV("../example/test1.csv");
 
     // Check if there are at least 5 rows in the CSV data
 
